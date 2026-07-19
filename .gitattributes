@@ -1,0 +1,8 @@
+# Auto-detect text files and perform LF normalization
+* text=auto
+
+# Ensure Python source files preserve standard Linux/Unix line endings
+*.py text eol=lf
+
+# Ensure Markdown documentation files preserve standard line endings
+*.md text eol=lf
